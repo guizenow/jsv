@@ -10,7 +10,7 @@
 <body>
 <script type="text/javascript">document.write("<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/gh/guizenow/jsv/jquery.js\"></sc"+"ript>");</script>
 		<?php
-include_once('inc/simple_html_dom_cu.php');
+include_once('simple_html_dom_cu.php');
 $value1 = $_GET['link'];
 $html = file_get_html($value1);
 $list = $html->find('div[class="fullw"]');
